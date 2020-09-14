@@ -4,5 +4,4 @@
 #include "ish.h"
 
 int main() {
-
 }
