@@ -3,7 +3,7 @@
 
 This is a framework in C++ 
 This is intended for developing console applications. All the hard work is done for you so you can focus on what matters.
-This also has stdio.h **localized** in `sources/io.h` as this heavily depends on that library to work
+This also has stdio.h **localized** in `sources/io.h` as this heavily depends on that library to work properly. This library, in total has a few depenends on the C standard libraries and exC in some versions of this library. 
 
 **BASICS OF THE TDX FRAMEWORK**
 This contains temporary places to keep numerical values. These are called **All-Acsess Variables (AAVs)** there are multiple types of AAVs including a, b, and c, but this is how the first 30 AAVs work:
