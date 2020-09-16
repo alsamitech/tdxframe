@@ -24,3 +24,7 @@ Result:
 
 Instace:
 Return AAV: `a3`
+
+AAV types:
+a - These are the AAVs that are recongized by the functions.  Please don't use these for holding data for your functions. these are only to be used for framework functions
+b - These are the AAVs that can be used however you like. They, by default. are not recognized by the fraework's functions. However, you can tweak the frameowrk to use these AAVs
