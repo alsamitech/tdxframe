@@ -4,3 +4,6 @@ void cls() {
 void pwd() {
   system("pwd");
 }
+void list() {
+  system("ls");
+}

@@ -7,6 +7,11 @@ void kti(char linex[]) {
   }
 }
 
+class instance{
+  public:
+  private:
+}
+
 void yin() {
   int a1 = 0;
   int a2 = 0;
