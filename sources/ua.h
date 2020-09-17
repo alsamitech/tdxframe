@@ -26,7 +26,7 @@ float r25;
 float r26;
 float r27;
 float r28;
-float r29.
+float r29;
 float r30;
 
 int yinR() {
@@ -58,6 +58,6 @@ float r25 = 0;
 float r26 = 0;
 float r27 = 0;
 float r28 = 0;
-float r29 = 0.
+float r29 = 0;
 float r30 = 0;
 }

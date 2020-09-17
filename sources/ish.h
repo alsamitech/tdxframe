@@ -9,8 +9,11 @@ void kti(char linex[]) {
 
 class instance{
   public:
+    instance(){
+
+    }
   private:
-}
+};
 
 void yin() {
   int a1 = 0;

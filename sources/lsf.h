@@ -1,9 +1,11 @@
-void cls() {
-  system("clear");
-}
-void pwd() {
-  system("pwd");
-}
-void list() {
-  system("ls");
+namespace sys{
+  void cls() {
+    system("clear");
+  }
+  void pwd() {
+    system("pwd");
+  }
+  void list() {
+    system("ls");
+  }
 }
