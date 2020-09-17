@@ -9,4 +9,12 @@ On Windows do:
 on Linux:
 ```cpp
 #include <lsf.h>
+<<<<<<< HEAD
+=======
+```
+
+How to clear the screen:
+```
+cls();
+>>>>>>> origin/master
 ```

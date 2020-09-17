@@ -8,12 +8,22 @@ void kti(char linex[]) {
 }
 
 class instance{
+<<<<<<< HEAD
   public:
     instance(){
 
     }
   private:
 };
+=======
+public:
+  instance(int prd) {
+    if (prd == 1)
+      cls();
+  }
+private:
+}
+>>>>>>> origin/master
 
 void yin() {
   int a1 = 0;
