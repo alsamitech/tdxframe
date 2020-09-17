@@ -19,8 +19,13 @@ namespace ap{
   }
   void pstc(char nito[]) {
     printf("%s", nito);
-    cls():
+    sys::cls():
     //NEEDS WSF/LSF!!!!
+  }
+  void cpst(char nspt[]) {
+    sys::cls();
+    printf("%s", nspt);
+    // SAME THING WITH THE WSF/LSF
   }
 }
 
