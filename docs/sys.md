@@ -18,3 +18,5 @@ How to clear the screen:
 cls();
 >>>>>>> origin/master
 ```
+
+This uses the `sys::` namespace as to not conflict with other functions. use `using namespace sys;` in the head of the file if you dont have any confilicting function names

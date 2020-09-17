@@ -7,15 +7,30 @@ void kti(char linex[]) {
   }
 }
 
+namespace ap{
+  void npr(char npl[]) {
+    printf("\n%s", npl);
+  }
+  void lqr(char edp[]){
+    printf("\n%s\n", edp);
+  }
+  void prd(int pdcxg) {
+    printf("%d", pdcxg);
+  }
+  void pstc(char nito[]) {
+    printf("%s", nito);
+    cls():
+    //NEEDS WSF/LSF!!!!
+  }
+}
+
 class instance{
-<<<<<<< HEAD
-  public:
+    public:
     instance(){
 
     }
   private:
 };
-=======
 public:
   instance(int prd) {
     if (prd == 1)
@@ -23,7 +38,6 @@ public:
   }
 private:
 }
->>>>>>> origin/master
 
 void yin() {
   int a1 = 0;
