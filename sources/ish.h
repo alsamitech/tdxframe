@@ -6,6 +6,9 @@ void kti(char linex[]) {
     println(linex);
   }
 }
+void print(char lsdfi[]) {
+  printf("%s", lsdfi);
+}
 
 namespace ap{
   void npr(char npl[]) {
@@ -19,7 +22,7 @@ namespace ap{
   }
   void pstc(char nito[]) {
     printf("%s", nito);
-    sys::cls():
+    sys::cls();
     //NEEDS WSF/LSF!!!!
   }
   void cpst(char nspt[]) {
@@ -30,19 +33,13 @@ namespace ap{
 }
 
 class instance{
-    public:
-    instance(){
-
+  public:
+    instance(int prd) {
+    if (prd == 1)
+      sys::cls();
     }
   private:
 };
-public:
-  instance(int prd) {
-    if (prd == 1)
-      cls();
-  }
-private:
-}
 
 void yin() {
   int a1 = 0;
