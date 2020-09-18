@@ -1,3 +1,4 @@
+#define luf(x); scanf("%[^\n]", x);
 void println(char linetop[]) {
   printf("%s\n", linetop);
 }
