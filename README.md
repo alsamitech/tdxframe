@@ -11,6 +11,10 @@ This contains temporary places to keep numerical values. These are called **All-
 10-20 hold a double value
 20-30 hold a float value
 
+**SOME VESIONS OF THIS RELY ON the exC LIBRARIES**
+https://github.com/alsamitech/exc
+(The Standard version includes a minitruized version of exC)
+
 **LICENSE TERMS - ALSO AT */LICENSE***
 MIT License
 
