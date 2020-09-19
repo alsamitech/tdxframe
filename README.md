@@ -15,6 +15,10 @@ This contains temporary places to keep numerical values. These are called **All-
 https://github.com/alsamitech/exc
 (The Standard version includes a minitruized version of exC)
 
+THE TDX FRAMEWORK is **NOT** just a framework, but also a standard. The specs for the standard will be released soon, and any framework that complies with the standard may put:
+***@lsami TECHNOLOGIES - MEETS TDX STANDARD***
+in the README file.
+
 **LICENSE TERMS - ALSO AT */LICENSE***
 MIT License
 
