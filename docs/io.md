@@ -8,3 +8,10 @@ ap::pstc(CharArray);
 // TO AVOID USING ap::, do:
 using namespace ap;
 ```
+```cpp
+ap::lqr(CharArray);
+//lqr prints a newline before and after the CharArray
+// ALSO PART OF THE AP namespace.
+ap::npr(CharArray);
+//npr prints a newline before the CharArray
+```
