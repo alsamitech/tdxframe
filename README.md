@@ -19,6 +19,9 @@ THE TDX FRAMEWORK is **NOT** just a framework, but also a standard. The specs fo
 ***@lsami TECHNOLOGIES - MEETS TDX STANDARD***
 in the README file.
 
+**HOW TO MAKE A PROPER TDX PACKAGE:**
+A TDX Package contains an installer, the executables, and the documentation for the specific application. A package (in this case) means a simple directory with an exutable as the installer. The code for the package installer is cross-platform. but the binaries only work on the platform they are targeted to. You also have to compile the package maker (Preferablly with GCC) or get it as a linux Binary in binaries/
+
 **LICENSE TERMS - ALSO AT */LICENSE***
 MIT License
 
