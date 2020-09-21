@@ -16,4 +16,12 @@ How to clear the screen:
 cls();
 ```
 
-This uses the `sys::` namespace as to not conflict with other functions. use `using namespace sys;` in the head of the file if you dont have any confilicting function names
+This uses the `sys::` namespace as to not conflict with other functions. use `using namespace sys;` in the head of the file if you dont have any confilicting function names.
+```cpp
+//Includes
+using namespace sys;
+
+int main() {
+  //Code goes here
+}
+```
