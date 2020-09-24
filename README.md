@@ -11,6 +11,8 @@ This contains temporary places to keep numerical values. These are called **All-
 10-20 hold a double value
 20-30 hold a float value
 
+There are also *Semi-Acsess-Variables* **SAVs** which are contianed in classes and help clases retrun values when `return` is redeemed unsuitable
+
 **SOME VESIONS OF THIS RELY ON the exC LIBRARIES**
 https://github.com/alsamitech/exc
 (The Standard version includes a minitruized version of exC)
