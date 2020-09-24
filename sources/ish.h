@@ -31,6 +31,9 @@ namespace ap{
     printf("%s", nspt);
     // SAME THING WITH THE WSF/LSF
   }
+  void clsn() {
+    printf(".\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+  }
 }
 
 class instance{
