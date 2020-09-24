@@ -49,7 +49,7 @@ class instance{
   private:
     int ir1;
     int ir2;
-    int ir3;int ir3;
+    int ir3;int ir4;
 };
 
 void yin() {
