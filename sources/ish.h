@@ -42,7 +42,14 @@ class instance{
     if (prd == 1)
       sys::cls();
     }
+    int ip1;
+    int ip2;
+    int ip3;
+    int ip4;
   private:
+    int ir1;
+    int ir2;
+    int ir3;int ir3;
 };
 
 void yin() {
