@@ -62,3 +62,16 @@ float r29 = 0;
 float r30 = 0;
 return 1;
 }
+
+void yinRI() {
+  int r1 = 0;
+  int r2 = 0;
+  int r3 = 0;
+  int r4 = 0;
+  int r5 = 0;
+  int r6 = 0;
+  int r7 = 0;
+  int r8 = 0;
+  int r9 = 0;
+  int r10 = 0;
+}
