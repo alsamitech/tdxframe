@@ -9,6 +9,7 @@ int main() {
 void WFS() {
   system("mkdir executables");
   system("cd executables\\");
+  //NOTE: WFS FUNCTION WILL NOT BE COMPLETED
 }
 void lfs() {
   system("mkdir app");
