@@ -36,11 +36,16 @@ namespace ap{
   }
 }
 
+char instl[128];
 class instance{
   public:
-    instance(int prd) {
-    if (prd == 1)
+    instance(int prd) { 
+    if (prd == 1) {
       sys::cls();
+    } else if (prd == 10) {
+      sys::cls();
+      print(instl);
+    }
     }
     int ip1;
     int ip2;
