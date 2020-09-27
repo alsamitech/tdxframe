@@ -10,5 +10,5 @@ The TDX framwork comes with an installer. The insaller generates a basic file st
 
 
 >>>>> alsamitech/TDXFRAME
->>>>> .alsws
+>>>>> .als Platform 1.0
 >>>>> Under EXPAT(MIT) LISCENSE

@@ -11,6 +11,16 @@ void print(char lsdfi[]) {
   printf("%s", lsdfi);
 }
 
+
+struct B32{
+  public:
+    int B01;
+    int B02;
+    int B03;
+    int B04;
+    int B05;
+};
+
 namespace ap{
   void npr(char npl[]) {
     printf("\n%s", npl);
