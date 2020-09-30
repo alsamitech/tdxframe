@@ -28,3 +28,14 @@ Return AAV: `a3`
 AAV types:
 a - These are the AAVs that are recongized by the functions.  Please don't use these for holding data for your functions. these are only to be used for framework functions
 b - These are the AAVs that can be used however you like. They, by default. are not recognized by the fraework's functions. However, you can tweak the frameowrk to use these AAVs
+r - Same thing as b, but contains different structures.
+
+Most functions will have 2 versions. 1 that returns an aav to be stored as
+```cpp
+ValueType exampleResult;
+exampleAAVfunction(/*args*/);
+exampleResult = ExampleAAV;
+```
+and the second that returns a normal value
+```cpp
+exampleResult = exampleFunction(/*args*/);
