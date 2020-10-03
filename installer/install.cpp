@@ -12,8 +12,6 @@ void WFS() {
   //NOTE: WFS FUNCTION WILL NOT BE COMPLETED
 }
 void lfs() {
-  system("mkdir app");
-  system("mv main app/main");
-  system("cd app/");
+  system("./inst.sh");
   /*Write a shell script to manifest the file into a exectuable package. The user can than integrate them into thier system. (either trhough batch fiiles, environment variables, or shortcuts)*/
 }
