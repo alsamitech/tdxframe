@@ -1,3 +1,6 @@
+#ifndef UV_H
+#define UV_H
+
 #define PR print
 int a1;
 int a2;
@@ -29,3 +32,7 @@ float a27;
 float a28;
 float a29;
 float a30;
+
+
+
+#endif

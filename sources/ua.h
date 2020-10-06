@@ -1,3 +1,6 @@
+#ifndef UA_H
+#define UA_H
+
 int r1;
 int r2;
 int r3;
@@ -75,3 +78,5 @@ void yinRI() {
   int r9 = 0;
   int r10 = 0;
 }
+
+#endif

@@ -1,3 +1,6 @@
+#ifndef ISH_H
+#define ISH_H
+
 #define luf(x); scanf("%[^\n]", x);
 void println(char linetop[]) {
   printf("%s\n", linetop);
@@ -10,6 +13,16 @@ void kti(char linex[]) {
 void print(char lsdfi[]) {
   printf("%s", lsdfi);
 }
+
+
+struct B32{
+  public:
+    int B01;
+    int B02;
+    int B03;
+    int B04;
+    int B05;
+};
 
 namespace ap{
   void npr(char npl[]) {
@@ -89,3 +102,4 @@ void yin() {
   float a29 = 0;
   float a30 = 0;
 }
+#endif

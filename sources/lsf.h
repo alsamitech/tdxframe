@@ -1,3 +1,5 @@
+#ifndef LSF_H
+#define LSF_H
 namespace sys{
   void cls() {
     system("clear");
@@ -16,3 +18,4 @@ namespace sys{
     // ONLY USE IF YOU HAVE VIM INSTALLED
   }
 }
+#endif
