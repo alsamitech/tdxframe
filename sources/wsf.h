@@ -1,3 +1,6 @@
+#ifndef WSF_H
+#define WSF_H
+
 namespace sys{
   void cls() {
     system("cls");
@@ -6,3 +9,4 @@ namespace sys{
     void("dir");
   }
 }
+#endif

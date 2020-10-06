@@ -1,3 +1,6 @@
+#ifndef ISH_H
+#define ISH_H
+
 #define luf(x); scanf("%[^\n]", x);
 void println(char linetop[]) {
   printf("%s\n", linetop);
@@ -99,3 +102,4 @@ void yin() {
   float a29 = 0;
   float a30 = 0;
 }
+#endif
