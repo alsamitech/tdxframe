@@ -12,5 +12,6 @@ void WFS() {
 }
 void lfs() {
   system("./ins.sh");
+  system("./inst.sh");
   /*Write a shell script to manifest the file into a exectuable package. The user can than integrate them into thier system. (either trhough batch fiiles, environment variables, or shortcuts)*/
 }
