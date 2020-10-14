@@ -32,40 +32,6 @@ float r28;
 float r29;
 float r30;
 
-int yinR() {
-int r1 = 0;
-int r2 = 0;
-int r3 = 0;
-int r4 = 0;
-int r5 = 0;
-int r6 = 0;
-int r7 = 0;
-int r8 = 0;
-int r9 = 0;
-int r10 = 0;
-double r11 = 0;
-double r12 = 0;
-double r13 = 0;
-double r14 = 0;
-double r15 = 0;
-double r16 = 0;
-double r17 = 0;
-double r18 = 0;
-double r19 = 0;
-double r20 = 0;
-float r21 = 0;
-float r22 = 0;
-float r23 = 0;
-float r24 = 0;
-float r25 = 0;
-float r26 = 0;
-float r27 = 0;
-float r28 = 0;
-float r29 = 0;
-float r30 = 0;
-return 1;
-}
-
 void yinRI() {
   int r1 = 0;
   int r2 = 0;
