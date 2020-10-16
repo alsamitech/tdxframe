@@ -35,26 +35,6 @@ namespace ap{
     // SAME THING WITH THE WSF/LSF
   }
 }
-
-char instl[128];
-class instance{
-  public:
-    instance(int prd) { 
-    if (prd == 1) {
-      sys::cls();
-    } else if (prd == 10) {
-      sys::cls();
-      print(instl);
-    }
-    }
-    int ip1;
-    int ip2;
-    int ip3;
-    int ip4;
-  private:
-    int ir1;
-    int ir2;
-    int ir3;int ir4;
 };
 
 void yin() {

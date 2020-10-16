@@ -6,7 +6,8 @@
 #include "ish.h"
 #include "ua.h"
 #include "exmath.h"
+// If you want your program to include networking and you're using 
 
-int main() {
+int main(int argc, char *argv[]) {
   //Write Code Here
 }
