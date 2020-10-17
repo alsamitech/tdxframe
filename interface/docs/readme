@@ -1,0 +1,5 @@
+als.tdx framework
+
+(c) Sami Alameddine, 2020
+
+This is how the client interacts with the daemon. This is the specification for how a communication library should work
