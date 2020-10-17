@@ -1,2 +1,6 @@
 .binaries
 .exc
+
+# IDE files
+.cbp
+.replit
