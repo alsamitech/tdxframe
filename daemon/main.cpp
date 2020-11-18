@@ -1,3 +1,6 @@
 #include "common.h"
+#include "core.h"
 
-int main() {}
+int main() {
+  alsinit();
+}

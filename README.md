@@ -1,6 +1,9 @@
 # Alsami Technologies Foundation
 ## ALS.TDX Framework Rewrite
 
+What is als.tdx?
+	als.tdx is the first professional project that I took on. Originally called TDX FRAMEWORK. It was meant to be a cross-platform lib-style framework to make the development of C++ applications easy. I changed the goal of als.tdx to be a collection of Linux utilites to make low-level development easy
+
 **I think we all know what happend:**
 	als.tdx was originally meant to be a framework that would make the development of C++ Applications Easy and Save Development time.
 	*However, that's not how it went down*

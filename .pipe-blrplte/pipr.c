@@ -8,7 +8,6 @@ int main(int argc, char* argv[]){
         if(id==9){
                 int x;                printf("Input a number: ");
                 scanf("%d", &x);
- 
         }
 
         return 0;

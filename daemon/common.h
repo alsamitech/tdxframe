@@ -9,6 +9,12 @@
  *
  * */
 
+// For the sake of sanity
+typedef unsigned int unit;
+
+// The guy at the cpp help discord told me not to use this
+//#define uint unsigned int
+
 // Standard input and output
 #include <stdio.h>
 // Standard fucntions (basically required to do anything meaningful in C.)
@@ -28,6 +34,9 @@
 #include <string.h>
 #include <fcntl.h>
 
+char event_buffer[512]
+
+#include "logger.h"
 
 /*Local Header files*/
 #endif
