@@ -33,6 +33,7 @@ typedef unsigned int unit;
 #include <arpa/inet.h>
 #include <string.h>
 #include <fcntl.h>
+#include <stdint.h>
 
 char event_buffer[512]
 

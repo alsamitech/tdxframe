@@ -1,5 +1,6 @@
 #ifndef ALS_TDX_FRMWRK_LOGR_HDR
 #define ALS_TDX_FRMWRK_LOGR_HDR
+#include "common.h"
 // To ensure across-the-board-compatibility and portability to C, I wont use #pragma once
 
 /*
@@ -10,18 +11,21 @@
  *	This file contains the functions and struct defitions for the core TDX modules to log to files. If something goes horribly, It will just log to console as a last resort.
  * */
 
-uchar FINIT(const char *init_msg) {
-	FILE *yin;
-	yin=fopen("tdx.als.log","a");
-	if(yin=NULL){
-		FILE *Yin;
-		Yin=fopen("tdx.als.log", "w+");
-		fprintf(Yin, "als.tdx daemon logfile\n\nCORE-MODULE-LOG: %s\n", init_msg);
-		fclose(Yin);
-		return 5;
+;const char* read_from_file(const char* filename){
+	char* buffer=0;
+	long flength;
+	FILE* fp = fopen(filename, "fb");
+
+	if(fp){
+		fseek(fp,0,SEEK_END);
+		flength=ftell(fp);
+		buffer=(char*)calloc(flength, flength);
+		
+		if(buffer)
+			fread(buffer, 1, flength, fp);
+		fclose(fp);
 	}
-	fprintf("CORE-MODULE-LOG: %s\n", init_msg);
-	fclose(yin);
+	return buffer;
 }
 
 void lgr_main_prc(void *Yin){
